@@ -15,7 +15,7 @@ public class Employee {
         
 }
     
-    Employee (String surname3, int age3){
+    public Employee (String surname3, int age3){
         
     surname = surname3;
     age = age3;
@@ -56,9 +56,9 @@ class EmployeeTest{
         
         System.out.println(emp2.surname);
        
-        Employee emp3 = new Employee(2,"Sidorov", 40, 100.35, "IT");      
+        Employee emp3 = new Employee(2,"Sidorov", 40, 100.35, "IT");         
         
-        System.out.println(emp3.age);
+        System.out.println(emp3.id + " " + emp3.age + " " + emp3.salary + " " + emp3.surname + " " + emp3.department);
         
         
     }

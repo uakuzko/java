@@ -62,10 +62,10 @@ class MethodOverloadingTest{
     public static void main (String [] args){
         
         MethodOverloading mO = new MethodOverloading();
-        int a =500;
+        int a = 500;
         mO.show(a);
         boolean b = true;
-        mO.show(b);
+        mO.show(b); 
         String s = "Privet!!!";
         mO.show(s);
         mO.show1(a);

@@ -29,7 +29,7 @@ public class MethodOverloading2 {
             
             MethodOverloading2 mO2 = new MethodOverloading2();
             
-            mO2.sum(5,7);
+            
             
             int a = mO2.sum(5,7);
             

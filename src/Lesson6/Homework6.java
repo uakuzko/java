@@ -4,59 +4,63 @@ package Lesson6;
 
 public class Homework6 {
     
-    int first;
-    int second;
-    int third;
-    int fourth;
-    int fifth;
     
-    
-    
-
-   void home (int first1, int second1, int third1, int fourth1, int fifth1){
+    int homeworkmethod (int homemethod1){
         
-       
-       
-    first = first1;
-    second = second1;
-    third = third1;
-    fourth = fourth1;
-    fifth = fifth1;
+        
+        return homemethod1;
+        
+    } 
     
-
+    
+    int homeworkmethod (int homemethod1, int homemethod2){
+        
+        return homemethod1 + homemethod2;
+        
+    } 
+    
+    
+    int homeworkmethod (int homemethod1, int homemethod2, int homemethod3){
+        
+        return homemethod1 + homemethod2 + homemethod3;
+        
+    } 
+            
+    int homeworkmethod (int homemethod1, int homemethod2, int homemethod3, int homemethod4){
+        
+        return homemethod1 + homemethod2 + homemethod3 + homemethod4;
+        
+    } 
+                    
+     int homeworkmethod (int homemethod1, int homemethod2, int homemethod3, int homemethod4, int homemethod5){
+        
+        return homemethod1 + homemethod2 + homemethod3 + homemethod4 + homemethod5;
+        
     }
-   
     
-   
-    void home (int first5){
-         
-        this (first5);
+    
+
+     
+}
 
 
-        
-     System.out.println(first5);
-     System.out.println();
-        
-    }
+class HomeworkTest{
     
-    
-      
-      
-   
+
     public static void main (String [] args){
         
-        Homework6 ho = new Homework6();
+        Homework6 hmw = new Homework6();
+
+        int a = hmw.homeworkmethod(0);
+        int b = hmw.homeworkmethod(0, 10);
+        int c = hmw.homeworkmethod(0, 10, 20);
+        int d = hmw.homeworkmethod(0, 10, 20, 30);
+        int e = hmw.homeworkmethod(0, 10, 20, 30, 40);
         
-        int first5 = 0;
-        ho.home(first5);
-        
-        int first4 = 3;
-        int second4 = 3;
- 
-        
-    }
-      
-      
-      
-    
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);        
+        System.out.println(e);   
+}
 }
