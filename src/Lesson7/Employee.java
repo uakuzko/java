@@ -10,8 +10,8 @@ public double salary;
 
 public void dvoynayaZP(){
     
-    
-    System.out.println("Novaya z/p = "+ salary * 2);
+    double result = salary*2;
+    System.out.println("Novaya z/p = "+ salary);
      
 }
 
@@ -29,7 +29,7 @@ public void dvoynayaZP(){
         
     }
 
-}
+}f
 
 
 class EmployeeTest {
